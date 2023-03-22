@@ -1,5 +1,4 @@
-# CATNet
-Class Activation Transfer Network with Knowledge Distillation for RGB-D Co-Salient Object Detection
+# CATNet-KD
 # Parameter
 Our RGB-T Co-SOD Paramerters:
 Badidu:https://pan.baidu.com/s/1DrUCtD_EZjIbmE1O9iyEEg
