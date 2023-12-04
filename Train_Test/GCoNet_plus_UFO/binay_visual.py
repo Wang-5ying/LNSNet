@@ -1,0 +1,16 @@
+import cv2
+import image
+import numpy as np
+import torch
+import torch.nn.functional as F
+img_arr = image.imread("/media/wby/shuju/第三篇/result_student/0211_b0_student/RGBD_CoSal1k/cannon/13832185014_85486690db_z.png")
+
+img_tensor = torch.tensor(img_arr)
+
+img_tensor = img_tensor.transpose(0, 2)  # 将第0维和第2维进行交换
+
+out = F.interpolate(img_tensor, size=(320, 320), mode='bilinear', align_corners=False)
+out_img = out.cpu().detach().numpy()
+out_img = np.max(out_img, axis=1).reshape(320, 320)
+res = (((out_img - np.min(out_img))/(np.max(out_img) - np.min(out_img)))*255).astype(np.uint8)
+res = cv2.applyColorMap(res, cv2.COLORMAP_JET)

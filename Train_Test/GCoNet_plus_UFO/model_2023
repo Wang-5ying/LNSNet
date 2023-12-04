@@ -1,0 +1,11 @@
+model,parameter,accuracy
+GICD, 585.4, 0.846
+GCoNet, 35, 0.864
+CADC, 785.6, 0.892
+ICNet+D, 68.8, 0.844
+GCoNet+D, 64.4, 0.861
+CADC+D, 826, 0.885
+LNSNet-Student, 244, 0.910
+LNSNet-KD, 244, 0.926
+LNSNet-Teacher, 398, 0.925
+

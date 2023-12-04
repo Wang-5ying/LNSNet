@@ -1,0 +1,8 @@
+model,parameter,accuracy,mae
+CTANet_b3, 508, 0.880, 0.046
+CTANet_b2, 349, 0.856, 0.052
+CTANet_b1, 260, 0.844, 0.065
+CTANet_b0, 72, 0.838, 0.070
+
+
+
