@@ -1,6 +1,6 @@
 # LNSNet-KD
 # Parameter
-Our RGB-T Co-SOD Paramerters:
+Our RGB-D Co-SOD Paramerters:
 Badidu:https://pan.baidu.com/s/1DrUCtD_EZjIbmE1O9iyEEg
 提取码：5dsb
 # Prediction Maps
