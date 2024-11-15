@@ -1,0 +1,19 @@
+import torch.nn.functional as F
+
+def hcl(fstudent, fteacher):
+    loss_all = 0.0
+    B, C, h, w = fstudent.size()
+    loss = F.mse_loss(fstudent, fteacher, reduction='mean')
+    cnt = 1.0
+    tot = 1.0
+    for l in [4,2,1]:
+        if l >=h:
+            continue
+        tmpfs = F.adaptive_avg_pool2d(fstudent, (l,l))
+        tmpft = F.adaptive_avg_pool2d(fteacher, (l,l))
+        cnt /= 2.0
+        loss += F.mse_loss(tmpfs, tmpft, reduction='mean') * cnt
+        tot += cnt
+    loss = loss / tot
+    loss_all = loss_all + loss
+    return loss_all
