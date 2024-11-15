@@ -7,4 +7,6 @@ Badidu:https://pan.baidu.com/s/1DrUCtD_EZjIbmE1O9iyEEg
 LNSNet_teacher
 Baidu:https://pan.baidu.com/s/1Er5bjgd902lyBg3q7xxDzw
 提取码：6yab 
+# Compare and contrast the methods and some of the weighted links that our method is going to use:
+VGG：https://pan.baidu.com/s/15dPQS0Vt11b0x84ctHirlw?pwd=g8w6(g8w6)
 
