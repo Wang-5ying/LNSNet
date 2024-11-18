@@ -13,16 +13,8 @@ Segformer:https://pan.baidu.com/s/1Guaz-ANZvSrtv1pa5xbzIw?(7o16)
 # Data preparation
 |--data \
 |      |--images  \
-|      |      |--DUTS_class \
-|      |      |--test_set \
-|      |      |--val_set \
 |      |--gts \
-|      |      |--DUTS_class \
-|      |      |--test_set \
-|      |      |--val_set \
 |      |--depths \
-|      |      |--DUTS_class \
-|      |      |--test_set \
-|      |      |--val_set \
+
 
 
