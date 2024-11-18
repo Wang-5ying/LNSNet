@@ -9,4 +9,4 @@ Baidu:https://pan.baidu.com/s/1Er5bjgd902lyBg3q7xxDzw
 提取码：6yab 
 # Compare and contrast the methods and some of the weighted links that our method is going to use:
 VGG：https://pan.baidu.com/s/15dPQS0Vt11b0x84ctHirlw?(g8w6)
-
+Segformer:https://pan.baidu.com/s/1Guaz-ANZvSrtv1pa5xbzIw?(7o16)
